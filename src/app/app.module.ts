@@ -8,6 +8,10 @@ import { HeaderComponent } from './component/defaul-layout/client/header/header.
 import { FooterComponent } from './component/defaul-layout/client/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { ErrorComponent } from './views/error/error.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { DropdownComponent } from './component/dropdown/dropdown.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -16,12 +20,16 @@ import { ErrorComponent } from './views/error/error.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ErrorComponent
+    ErrorComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
