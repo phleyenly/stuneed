@@ -10,11 +10,11 @@ import { CategoryService } from 'src/app/service/category.service';
 export class HeaderComponent implements OnInit {
   isOpen: String = '';
   category: Category[] = [];
-
   constructor(private categoryService: CategoryService) {}
 
   ngOnInit(): void {
     this.getAllCategory();
+    console.log(this.category)
   }
 
   getAllCategory(): void {

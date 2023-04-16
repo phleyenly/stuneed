@@ -1,11 +1,12 @@
 <div class="dropdown h-100" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()">
     <a class="btn btn-light w-100 h-100" type="button">
-    {{ category.name }} &nbsp;<i class="fa fa-angle-down"></i>
+    Dropdown &nbsp;<i class="fa fa-angle-down"></i>
     </a>
     <div class="dropdown-menu" [ngClass]="isOpen">
-        <div *ngFor="let item of category.types ; index as i">
-            <a class="dropdown-item" href="#">{{ item.name }}</a>
-            <div class="dropdown-divider" *ngIf="i !== category.types.length - 1"></div>
-        </div>
+        <a class="dropdown-item" href="#">Mục menu 1</a>
+        <a class="dropdown-item" href="#">Mục menu 2</a>
+        <a class="dropdown-item" href="#">Mục menu 3</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Liên kết khác</a>
     </div>
 </div>

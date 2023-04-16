@@ -1,5 +1,4 @@
-import { Component, Input } from '@angular/core';
-import { Category } from 'src/app/interface/category';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dropdown',
@@ -7,10 +6,7 @@ import { Category } from 'src/app/interface/category';
   styleUrls: ['./dropdown.component.scss']
 })
 export class DropdownComponent {
-  @Input("category") category: Category = { id: -1, name: "", types: [] };
-
   isOpen: String = '';
-
   openDropdown() {
     this.isOpen = 'show';
   }
