@@ -13,6 +13,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DropdownComponent } from './component/dropdown/dropdown.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SliderComponent } from './component/slider/slider.component';
+import { HomeProductsComponent } from './component/home-products/home-products.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SliderComponent } from './component/slider/slider.component';
     HomeComponent,
     ErrorComponent,
     DropdownComponent,
-    SliderComponent
+    SliderComponent,
+    HomeProductsComponent
   ],
   imports: [
     BrowserModule,

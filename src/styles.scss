@@ -14,18 +14,18 @@
 @import 'src/assets/client/scss/swiper.css';
 
 .w-1170px {
-    width: 1179px;
+    width: 1179px !important;
 }
 
 .h-36px {
-    height: 36px;
+    height: 36px !important;
 }
 
 body {
     /* Thiết lập các thuộc tính sau để footer không bị che bởi scrollbar */
     min-height: 100vh;
     position: relative;
-    padding-bottom: 100px; /* Chiều cao của footer */
+    // padding-bottom: 100px; /* Chiều cao của footer */
 }
 
 /* Importing Bootstrap SCSS file. */
