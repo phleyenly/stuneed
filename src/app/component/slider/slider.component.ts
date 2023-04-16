@@ -24,7 +24,7 @@ export class SliderComponent {
   '<a class="fr-slider-more btn btn-primary" href="#">Start shopping</a>' +
  '</p>']
 
- openActive1: String = '';
+ openActive1: String = 'active';
  openActive2: String = '';
  openActive3: String = '';
   textSlider: string = this.textSliderConstant[0];
