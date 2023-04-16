@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DropdownComponent } from './component/dropdown/dropdown.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SliderComponent } from './component/slider/slider.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     ErrorComponent,
-    DropdownComponent
+    DropdownComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
