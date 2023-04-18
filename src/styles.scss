@@ -21,14 +21,6 @@
     height: 36px !important;
 }
 
-body {
-    /* Thiết lập các thuộc tính sau để footer không bị che bởi scrollbar */
-    // min-height: 100vh;
-    // position: relative;
-    height: 100%;
-    // padding-bottom: 100px; /* Chiều cao của footer */
-}
-
 /* Importing Bootstrap SCSS file. */
 @import "./node_modules/bootstrap/scss/bootstrap";
 
