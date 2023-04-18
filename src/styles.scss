@@ -23,8 +23,9 @@
 
 body {
     /* Thiết lập các thuộc tính sau để footer không bị che bởi scrollbar */
-    min-height: 100vh;
-    position: relative;
+    // min-height: 100vh;
+    // position: relative;
+    height: 100%;
     // padding-bottom: 100px; /* Chiều cao của footer */
 }
 

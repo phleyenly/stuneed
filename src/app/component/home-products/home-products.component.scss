@@ -1,0 +1,14 @@
+.fr-pop-tab-cont {
+    overflow-x: auto; /* Bật tính năng overflow-x: auto để cho phép scroll ngang */
+    white-space: nowrap; /* Ngăn không gian trống xuống dòng */
+    -webkit-overflow-scrolling: touch; /* Cung cấp cuộn mượt trên các thiết bị di động */
+}
+
+.carousel-inner {
+    display: flex; /* Sử dụng Flexbox để các mục con nằm trên cùng một dòng */
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Không giãn rộng các mục item */
+    margin-right: 15px; /* Khoảng cách giữa các mục item */
+}
